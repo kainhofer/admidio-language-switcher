@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="PLG_LANGUAGE_SWITCHER_DEFAULT">Default language</string>
+  <string name="PLG_LANGUAGE_SWITCHER_DESCRIPTION">A menu in the header bar with which every user chooses the language of Admidio for themselves.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_FLAGS">Show flags</string>
+  <string name="PLG_LANGUAGE_SWITCHER_FLAGS_DESC">Show the flag of each language instead of the translation icon. A language is not a country: English shows the British flag, Portuguese and Brazilian Portuguese their own flags.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LANGUAGES">Languages</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LANGUAGES_DESC">The languages the menu offers. None selected: all languages of Admidio.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_NAME">Language switcher</string>
+  <string name="PLG_LANGUAGE_SWITCHER_REMEMBER">Remember the choice</string>
+  <string name="PLG_LANGUAGE_SWITCHER_REMEMBER_DESC">Keep the chosen language in a cookie for the next visit.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_TOOLTIP">Language</string>
+  <string name="PLG_LANGUAGE_SWITCHER_VISITORS">Also for visitors</string>
+  <string name="PLG_LANGUAGE_SWITCHER_VISITORS_DESC">Show the menu to visitors who are not logged in, too.</string>
+</resources>

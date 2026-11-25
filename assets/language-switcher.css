@@ -1,0 +1,37 @@
+/* Only used on a core without the filter page_header_items, whose header items bring these styles. */
+#adm_main_navbar .admidio-language-switcher-button {
+    color: var(--admidio-header-link-color);
+    border: 1px solid color-mix(in srgb, var(--admidio-header-link-color) 50%, transparent);
+    background-color: color-mix(in srgb, white 35%, transparent);
+    font-size: 0.875rem;
+    font-weight: normal;
+    padding: 0.25rem 0.6rem;
+}
+
+#adm_main_navbar .admidio-language-switcher-button:hover,
+#adm_main_navbar .show > .admidio-language-switcher-button {
+    background-color: color-mix(in srgb, white 70%, transparent);
+}
+
+#adm_main_navbar .admidio-language-switcher-menu {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+#adm_main_navbar .admidio-language-switcher-menu .dropdown-item {
+    color: var(--bs-dropdown-link-color);
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+}
+
+#adm_main_navbar .admidio-language-switcher-menu .dropdown-item.active,
+#adm_main_navbar .admidio-language-switcher-menu .dropdown-item:active {
+    color: var(--bs-dropdown-link-active-color);
+}
+
+.admidio-language-switcher-flag {
+    height: 1em;
+    width: auto;
+    vertical-align: -0.125em;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15);
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="PLG_LANGUAGE_SWITCHER_DEFAULT">Standardsprache</string>
+  <string name="PLG_LANGUAGE_SWITCHER_DESCRIPTION">Ein Menü in der Kopfzeile, mit dem jeder Benutzer die Sprache von Admidio für sich selbst wählt.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_FLAGS">Flaggen anzeigen</string>
+  <string name="PLG_LANGUAGE_SWITCHER_FLAGS_DESC">Bei jeder Sprache ihre Flagge statt des Übersetzungssymbols anzeigen. Eine Sprache ist kein Land: Englisch zeigt die britische Flagge, Portugiesisch und brasilianisches Portugiesisch ihre eigenen Flaggen.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LANGUAGES">Sprachen</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LANGUAGES_DESC">Die Sprachen, die das Menü anbietet. Keine ausgewählt: alle Sprachen von Admidio.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_NAME">Sprachumschalter</string>
+  <string name="PLG_LANGUAGE_SWITCHER_REMEMBER">Auswahl merken</string>
+  <string name="PLG_LANGUAGE_SWITCHER_REMEMBER_DESC">Die gewählte Sprache für den nächsten Besuch in einem Cookie speichern.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_TOOLTIP">Sprache</string>
+  <string name="PLG_LANGUAGE_SWITCHER_VISITORS">Auch für Besucher</string>
+  <string name="PLG_LANGUAGE_SWITCHER_VISITORS_DESC">Das Menü auch Besuchern zeigen, die nicht angemeldet sind.</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+    "id": "language-switcher",
+    "name": "PLG_LANGUAGE_SWITCHER_NAME",
+    "description": "PLG_LANGUAGE_SWITCHER_DESCRIPTION",
+    "version": "0.1.1",
+    "author": "Reinhold Kainhofer",
+    "url": "https://github.com/kainhofer/admidio-language-switcher/",
+    "icon": "bi-translate",
+    "menu": false,
+    "requires": {
+        "admidio": ">=6.0",
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "AdmidioPlugin\\LanguageSwitcher\\": "src/"
+    },
+    "preferences": {
+        "section": "system",
+        "sequence": 60
+    },
+    "settings": {
+        "language_switcher_languages": {
+            "type": "array",
+            "default": [],
+            "label": "PLG_LANGUAGE_SWITCHER_LANGUAGES",
+            "description": "PLG_LANGUAGE_SWITCHER_LANGUAGES_DESC"
+        },
+        "language_switcher_visitors": {
+            "type": "boolean",
+            "default": true,
+            "label": "PLG_LANGUAGE_SWITCHER_VISITORS",
+            "description": "PLG_LANGUAGE_SWITCHER_VISITORS_DESC"
+        },
+        "language_switcher_remember": {
+            "type": "boolean",
+            "default": true,
+            "label": "PLG_LANGUAGE_SWITCHER_REMEMBER",
+            "description": "PLG_LANGUAGE_SWITCHER_REMEMBER_DESC"
+        },
+        "language_switcher_flags": {
+            "type": "boolean",
+            "default": false,
+            "label": "PLG_LANGUAGE_SWITCHER_FLAGS",
+            "description": "PLG_LANGUAGE_SWITCHER_FLAGS_DESC"
+        }
+    }
+}
